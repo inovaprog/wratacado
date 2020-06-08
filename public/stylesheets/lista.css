@@ -1,0 +1,23 @@
+h1{
+    font: 18pt Arial, sans-serif;
+}
+body{
+    padding: 30px;
+}
+#formulario{
+    width: 100%;
+}
+.fild{
+    padding: 10px;
+}
+a {
+    color: #000;
+    
+  }
+  a:hover {
+      text-decoration: none; 
+      color: #000
+      }
+  a:active {
+      text-decoration: none
+      }

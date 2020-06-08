@@ -1,0 +1,229 @@
+body {
+  width: 100%;
+  font: 14px Arial, sans-serif;
+ 
+}
+
+#search{
+  width: 100%;
+  padding: 10px;
+  font: 15px Arial, sans-serif;
+  font-style: oblique;   
+  line-height: 80px;
+}
+ .tel{
+  font: 15px Arial, sans-serif;
+  font-style: normal;   
+  line-height: 61px;
+ }
+
+.logo-texto{
+  font: 23px Roboto, sans-serif;
+  font-style: normal;   
+  line-height: 61px;
+}
+a {
+  color: #000;
+  
+}
+a:hover {
+	text-decoration: none; 
+	color: #000
+	}
+a:active {
+	text-decoration: none
+	}
+
+#slide-maquinas{
+    height: 400px;
+  }
+#slide-maquinas img{
+  height: 400px;
+  padding: 20px;
+}
+
+#texto-maquinas{
+  margin-top: 100px;
+  font-family: Roboto, sans-serif;
+  padding: 20px;
+}
+
+#slide-bones{
+  height: 400px;
+}
+#slide-bones img{
+height: 400px;
+padding: 20px;
+}
+
+#texto-bones-1{
+margin-top: 100px;
+font-family: Roboto, sans-serif;
+padding: 20px;
+}
+
+#texto-bones-2{
+  margin-top: 100px;
+  font-family: Roboto, sans-serif;
+  padding: 20px;
+  display: none;
+  }
+
+.lista-produto{
+  padding: 10px;
+}
+
+.produto{
+  
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.imagem{
+  height: 150px;
+  width: 100%;
+  background-color: cornsilk;
+}
+.titulo{
+  padding: 5px;
+}
+.botao{
+  padding: 5px;
+}
+
+h3{
+  font-size: 15pt;
+  font-family: Roboto, sans-serif;
+}
+h1{
+  font-size: 19pt;
+  font-family: Roboto, sans-serif;
+}
+
+#sobre{
+  padding: 180px;
+}
+
+#produtos{
+  padding: 20px;
+}
+
+.rodape{
+  padding: 5px;
+  background-color: rgb(218, 216, 216);
+  width: 100%;
+}
+
+.preco{
+  font-size: 20px;
+  padding: 10px;
+}
+
+#whatsapp{
+  border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+    position: fixed;
+    width: 20%;
+    max-width: 80px;
+    min-width: 48px;
+    max-height: 80px;
+    min-height: 48px;
+    right: 35px;
+    bottom: 35px;
+}
+
+#whatsapp img{
+  width: 100%;
+  height: 100%;
+}
+
+#parceiros{
+  align-items: center;
+  width: 100%;
+}
+
+#parceiros img{
+  height: 300px;
+}
+
+
+
+
+@media (max-width: 992px) 
+{
+  
+ 
+  #texto-maquinas{
+    margin-top: 10px;
+  }
+
+  #sobre{
+    padding: 10px;
+  }
+  #texto-bones-2{
+    margin-top: 0px;
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    display: grid;
+    }
+    #texto-bones-1{
+      margin-top: 100px;
+      font-family: Roboto, sans-serif;
+      padding: 20px;
+      display: none;
+      }
+ 
+}
+
+@media (max-width: 600px) 
+{
+  #parceiros img{
+    height: 200px;
+  }
+
+  .produto{
+    width: 70%;
+    padding: 10px;
+  }
+
+  #search{
+    line-height: 40px;
+    padding: 10px;
+  }
+  #search img{
+    margin-bottom: 10px;
+  }
+  #slide-maquinas{
+    height: 300px;
+  }
+  #slide-maquinas img{
+  height: 300px;
+  padding: 20px;
+  }
+  #slide-bones{
+  height: 300px;
+  }
+  #slide-bones img{
+    height: 300px;
+    padding: 20px;
+    }
+  #texto-bones-1{
+    margin-top: 0px;
+    font-family: Roboto, sans-serif;
+    padding: 20px;
+    
+    }
+    .logo-texto{
+      font: 23px Roboto, sans-serif;
+      font-style: normal;   
+      line-height: 40px;
+    }
+
+}
+
